@@ -200,7 +200,7 @@ public class FileHandling {
 			    		br2.close();    		
 			    		db.delete();    		
 			    		boolean success = tempDB.renameTo(db);    		
-			    		System.out.println(success);    		
-			    		    }
+						System.out.println(success);
+					}
 
 }
